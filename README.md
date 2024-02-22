@@ -3,7 +3,9 @@ Este proyecto implementa una red neuronal convolucional (CNN) para el reconocimi
 
 ## Características
 -Uso de TensorFlow para construir y entrenar el modelo CNN.
+
 -Preprocesamiento de imágenes con ImageDataGenerator para mejorar la generalización.
+
 -Visualización de dígitos y predicciones para evaluación cualitativa.
 
 ## Dependencias
@@ -17,9 +19,13 @@ El proyecto utiliza el conjunto de datos MNIST, que está disponible directament
 ## Modelo
 ### La CNN implementada incluye las siguientes capas:
 -Capas convolucionales para la extracción de características.
+
 -Capas de pooling para reducir la dimensionalidad.
+
 -Capas de dropout para evitar el sobreajuste.
+
 -Una capa flatten para convertir los mapas de características en un vector.
+
 -Capas densas para la clasificación final.
 
 ## Entrenamiento
